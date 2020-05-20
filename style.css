@@ -15,6 +15,16 @@ body {
     left: 0;
 
 }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* padding:3rem 0rem; */
+}
+.wrapper-nav {
+    height: 12vh;
+    margin-bottom: 2rem;
+}
 nav {
     display: flex;
     flex-direction: row;
@@ -22,7 +32,7 @@ nav {
     position: fixed;
     top:0px;
     width: 100%;
-    height: auto;
+    /* margin-bottom: 20%; */
 }
 nav > div {
 
@@ -45,12 +55,30 @@ nav > div {
 .search {
     margin-left: auto;
     width:100%;
+
+
 }
 .search input {
+
     position: relative  ;
-    right: 2px;
+    right: 12px;
+    top:3px;
+    border: transparent;
     float: right;
-    height: 15px;
+    border-radius: 10px;
+    height: 1.6rem;
+    background-color: honeydew;
+    line-height: 20px;
+    /* color: wheat; */
+    padding-left: 10px;
+    -webkit-transition: width 2s ease-in-out;
+    transition: width 2s ease-in-out , background-color 0.5s ease-in-out , border 2s ease-in-out;
+}
+.search input:focus {
+    width: 40%;
+    background-color: indigo;
+    color:whitesmoke;
+    border: 1px rgb(35, 247, 201) solid;
 }
 .bell-icon  {
     padding-top: 12px;
@@ -71,18 +99,19 @@ nav > div {
  /* main container  */
 .main-container {
     display: flex;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     color: honeydew;
+    align-items: stretch;
 }
 .main-container main {
     width: 60%;
     border: 2px greenyellow solid;
-    height: 50%;
+    /* height: 50%; */
     margin:0rem 1rem;
 }
 .main-container aside {
     width:40%;
-    height: 50%;
+    /* height: 50%; */
     border:2px pink solid;
     margin: 0rem 1rem;
 }
