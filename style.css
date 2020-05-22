@@ -102,7 +102,7 @@ nav > div {
 
 .main-container {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 4rem;
     color: var(--font-color);
     align-items: stretch;
     height: 80vh;
@@ -153,4 +153,52 @@ nav > div {
 	80% {left: -300%;}
 	90% {left: -400%;}
 	100% {left: -400%}
+}
+#latest-release {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+#latest-release > div{
+    margin: 0px;
+}
+#latest-release div img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding-bottom: 0.5rem;
+}
+#release-heading {
+    padding-top: 30px;
+
+}
+#genre {
+    border: 2px white solid;
+    margin-top: 2rem;
+    width:70%;
+    position: relative;
+    left: 1rem;
+    min-height: 35vh;
+    /* padding: 0rem 1.5rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+#genre > div {
+    width:20%;
+}
+#genre div img {
+    height: 80%;
+    padding:0px 15px;
+    width: 100%;
+    border: 1px white solid;
+}
+#genre-title {
+    padding:0px;
+    height: 70%;
+    position: relative;
+    top: 1rem;
+    width:10%;
+    padding:0px 5px;
 }
