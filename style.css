@@ -202,3 +202,35 @@ nav > div {
     width:10%;
     padding:0px 5px;
 }
+
+#lang-eng {
+    height: 30vh;
+    border: 2px #ffffff solid;
+    width:75%;
+    display: flex;
+    flex-direction: column;
+}
+#title-eng {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    color: white;
+}
+#lang-eng div img {
+    height: 100px;
+    width:65%;
+    margin:1.5rem;
+}
+#eng-lang-list {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* justify-content: center; */
+    position: relative;
+    left:12%;
+}
+#eng-lang-list > div {
+    flex:1;
+    /* width: 10%; */
+}
