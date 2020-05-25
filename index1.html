@@ -1,11 +1,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/6f96630cbb.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    
+    <div id="particles-js"></div>
+    <div class="wrapper">
+        <div class="wrapper-nav">
+            <nav>
+                <div class="icon"><i class="fab fa-angrycreative"></i></div>
+                <div class="favourites"><span>Favourites</span></div>
+                <div class="search"><input type="text" name="search" placeholder="Search"></div>
+                <div class="bell-icon"><i class="far fa-bell"></i></div>
+                <div class="profile-pic"><i class="far fa-user-circle"></i></div>
+            </nav>
+        </div>
+        <div class="main-container">
+            <div class="banner">
+                <img src="background1.jpg" alt="cant display text">
+            </div>
+            <div class="similar"></div>
+            <div class="list">
+                <img src="background1.jpg" alt="cant display text">
+            </div>
+            <div class="recent"></div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script>
+            particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+        </script>
 </body>
 </html>
