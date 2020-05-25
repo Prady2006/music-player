@@ -100,7 +100,7 @@ nav > div {
 .main-container {
     display: flex;
     border: 5px green solid;
-    height: 100%;
+    height: auto;
     width:90%;
     margin: 4rem auto 0 2rem;
     flex-wrap: wrap;
@@ -109,9 +109,11 @@ nav > div {
     border: 5px pink solid;
     /* min-height: 0; */
     min-height: 0;
+    height: 50vh;
 }
 .banner {
     width:70%;
+    /* height: 50vh; */
 }
 .banner > img {
     position: relative;
@@ -122,9 +124,11 @@ nav > div {
 }
 .similar{ 
     width: 30%;
+    /* height: 50vh; */
 }
 .list {
     width: 70%;
+    /* height: 50vh; */
 }
 .list > img {
 
