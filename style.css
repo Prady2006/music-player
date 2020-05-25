@@ -106,6 +106,7 @@ nav > div {
     color: var(--font-color);
     align-items: stretch;
     height: 80vh;
+    /* width: 95vw; */
 }
 .main-container div {
     width: 100%;
@@ -132,10 +133,12 @@ nav > div {
     margin-right: 4rem;
     height: 90%;
     border: 2px pink solid;
+    overflow-x: hidden;
 }
 #title-playlist {
     margin: 0px;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 .nav {
     margin: 0px !important;
@@ -241,10 +244,7 @@ nav > div {
 .list > div:hover {
     background-color: greenyellow;
 }
-.list > div > .fa-pause {
-    /* display: none; */
-    visibility: hidden;
-} 
+
 .list > div > .fa-ellipsis-h {
     margin-left: auto;
     padding-right: 2px;
@@ -252,13 +252,7 @@ nav > div {
 .list > div > .fa-play {
     padding-right: 8px;
 }
-.list > div > .fa-play:active {
-    display: none;
-}
-.list > div > .fa-play:active > .fa-pause {
-    /* display: inline; */
-    visibility: visible;
-}
+
 #slider{
     overflow:hidden;
     width:50%;margin:5px auto; border: 5px solid transparent;border-radius: 10px;
