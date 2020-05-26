@@ -107,37 +107,98 @@ nav > div {
 }
 .main-container > div {
     border: 5px pink solid;
-    /* min-height: 0; */
     min-height: 0;
     height: 50vh;
 }
 .banner {
     width:70%;
-    /* height: 50vh; */
 }
-.banner > img {
-    position: relative;
-    top: 10%;
-    left:10%;
-    height: 85%;
-    width: 85%;
-}
+
 .similar{ 
     width: 30%;
-    /* height: 50vh; */
+}
+.similar {
+    display: flex;
+    flex-direction: column;
+}
+.similar > div {
+    display: flex;
+    color: white;
+}
+.similar > div > img {
+    padding-top: 4px;
+}
+.top {
+    position: relative;
+    top:12px;
+    left:10px
+}
+.fa-ellipsis-h {
+    margin-left: auto;
+    position: relative;
+    top:12px;
+    padding-right:5px;
+}
+#similar-heading {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.similar > div > img {
+    height:50px;   
 }
 .list {
     width: 70%;
-    /* height: 50vh; */
+    height: auto !important;
+    padding-bottom: 10px;
 }
-.list > img {
+.list > div {
+    display: flex;
+    height: 15vh;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding: 1rem 0.5rem;
+
+}
+.list > div > img {
+    /* height: 100px; */
+    width: 100px;
+}
+.list > div > .fa-heart {
+    margin-left: auto;
+    font-size: 1.5rem;
+}
+.list > div >.fa-plus {
+    font-size: 1.5rem;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.banner > img {
 
     position: relative;
     top: 10%;
     left:10%;
     height: 85%;
-    width: 85%;
+    width: 80%;
 }
 .recent {
     width: 30%;
+    height: auto;
+}
+#recent-heading {
+    font-size: 1.3rem;
+    color: white;
+    margin: 10px 0px;
+}
+.recent > div{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+}
+.recent > div > .fa-plus {
+    margin-left: auto;
+}
+.recent > div > img {
+    width: 100px;
 }
