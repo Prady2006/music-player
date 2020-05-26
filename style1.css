@@ -164,6 +164,7 @@ nav > div {
 .list > div > img {
     /* height: 100px; */
     width: 100px;
+    color: white;
 }
 .list > div > .fa-heart {
     margin-left: auto;
@@ -184,7 +185,7 @@ nav > div {
 }
 .recent {
     width: 30%;
-    height: auto;
+    height: auto !important;
 }
 #recent-heading {
     font-size: 1.3rem;
@@ -195,10 +196,23 @@ nav > div {
     display: flex;
     height: 10vh;
     width: 100%;
+    margin-top:10px;
 }
 .recent > div > .fa-plus {
     margin-left: auto;
+    color: white;
+}
+.recent > div > span {
+    color: white;
+    margin-left:10px;
+    height: 10vh;
+}
+.recent .fa-heart {
+    color: white;
+    margin-left: auto;
+    margin-right: 20px;
 }
 .recent > div > img {
     width: 100px;
+    /* padding-top: 10px; */
 }
