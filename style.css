@@ -12,6 +12,7 @@
 }
 body {
     background-color: var(--body-background-color,#1e2125);
+    -ms-overflow-style:none;
 }
 #particles-js {
     width: 100%;
