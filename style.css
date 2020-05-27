@@ -370,3 +370,58 @@ nav > div {
     /* width: 10%; */
 }
 
+@media screen and (max-width: 950px){
+    #slider {
+        margin: 2rem;
+        height: 80%;
+        width: auto;
+    }
+    #slide-show {
+        height: 65vh;
+    }
+    .main-container {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .main-container > div {
+        height: 100% !important;
+        width: 90% !important;
+    }
+    nav {
+        z-index: 100;
+    }
+    #latest-release {
+        position: relative;
+        top:100px;
+        margin-top:0px;
+    }
+    .main-container .aside-container {
+        width: 50% !important;
+        position: relative;
+        left: 20%;
+        height: 80vh !important;
+    }
+    #genre {
+        width: 95%;
+        margin: 0px;
+    }
+    #lang-eng {
+        width: 95%;
+    }
+}
+@media screen and (max-width:650px ){
+    #latest-release {
+        flex-direction: column;
+    }
+    /* #release-heading > p{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    } */
+    /* #latest-release > div {
+        width: 50%;
+        position: relative;
+        left: 50%;
+        padding-top: 10px;
+    } */
+}
