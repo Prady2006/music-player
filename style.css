@@ -12,7 +12,7 @@
 }
 body {
     background-color: var(--body-background-color,#1e2125);
-    -ms-overflow-style:none;
+    scrollbar-width: none;
 }
 #particles-js {
     width: 100%;
@@ -142,8 +142,15 @@ nav > div {
     overflow-x: hidden;
 }
 #title-playlist::-webkit-scrollbar{
-    width: 0 !important;
-    background-color: greenyellow !important;
+    width: 8px ;
+}
+#title-playlist::-webkit-scrollbar-thumb {
+    background-color: greenyellow;
+    border-radius: 6px;
+    transition: all 10s ease-in-out;
+}
+#title-playlist::-webkit-scrollbar-thumb:hover {
+    background-color: red;
 }
 .nav {
     margin: 0px !important;
@@ -310,9 +317,12 @@ nav > div {
 }
 #genre > div {
     width:20%;
+    height: 50%;
+    position: relative;
+    top: 1rem;
 }
 #genre div img {
-    height: 80%;
+    height: 100%;
     padding:0px 15px;
     width: 100%;
     border: 1px white solid;
@@ -351,7 +361,7 @@ nav > div {
     width: 100%;
     /* justify-content: center; */
     position: relative;
-    left:12%;
+    left:5%;
 }
 #eng-lang-list > div {
     flex:1;
