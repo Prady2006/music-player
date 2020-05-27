@@ -52,6 +52,7 @@ nav > div {
     font-size: 3rem;
     max-width: 50%;
 }
+
 .favourites {
     width: auto;
 }
@@ -143,6 +144,7 @@ nav > div {
 }
 #title-playlist::-webkit-scrollbar{
     width: 8px ;
+    height: 10px;
 }
 #title-playlist::-webkit-scrollbar-thumb {
     background-color: greenyellow;
