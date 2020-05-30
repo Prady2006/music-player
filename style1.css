@@ -108,7 +108,7 @@ nav > div {
 .main-container > div {
     border: 5px pink solid;
     min-height: 0;
-    height: 50vh;
+    height: 65vh;
 }
 .banner {
     width:70%;
@@ -177,11 +177,12 @@ nav > div {
 }
 .banner > img {
 
-    position: relative;
+    /* position: relative;
     top: 10%;
-    left:10%;
-    height: 85%;
-    width: 80%;
+    left:10%; */
+    padding-bottom: 10px;
+    height: 100%;
+    width: 90%;
 }
 .recent {
     width: 30%;
@@ -215,4 +216,7 @@ nav > div {
 .recent > div > img {
     width: 100px;
     /* padding-top: 10px; */
+}
+.fa-angrycreative {
+    color: greenyellow;
 }

@@ -313,7 +313,7 @@ nav > div {
     width:70%;
     position: relative;
     left: 1rem;
-    min-height: 35vh;
+    height: 35vh;
     /* padding: 0rem 1.5rem; */
     display: flex;
     justify-content: space-between;
@@ -373,10 +373,11 @@ nav > div {
     /* width: 10%; */
 }
 audio {
-    display: none;
+    display: none;genre
 }
 audio:target {
     display: block;
+    border: 2px red solid;
     width:100%;
 }
 
@@ -403,8 +404,6 @@ audio:target {
         z-index: 100;
     }
     #latest-release {
-        position: relative;
-        top:100px;
         margin-top:0px;
     }
     .main-container .aside-container {
@@ -416,6 +415,7 @@ audio:target {
     #genre {
         width: 95%;
         margin: 0px;
+        height: 35vh;
     }
     #lang-eng {
         width: 95%;
